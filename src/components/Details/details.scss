@@ -1,0 +1,132 @@
+@import '../../colors/colors.scss';
+
+section{
+    // background-color: #e85860;
+    background-image:  linear-gradient(to top ,#e85860,$background-cover);
+    padding: 10px;
+
+
+}
+.artist-details{
+    width: 100%;
+    min-height: 220px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    h3{
+        color: $font-primary;
+        padding: 20px;
+        font-size: 18px;
+    }
+}
+.artist-verify{
+    color: $font-primary;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    i{
+        padding-right: 18px;
+    }
+    h4{
+        font-size: 18px;
+    }
+}
+section h1{
+    color: $font-primary;
+    font-size: 80px;
+    padding-left: 20px;
+}
+
+//artist-track
+
+.artist-track{
+    width: 100%;
+    height: 17%;
+    padding-left: 10px;
+}
+.track-top-items {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 20px;
+    span i{
+        padding: 20px;
+        background-color: $primary-color;
+        border-radius: 50%;
+
+    }
+    button{
+        padding: 3px 15px;
+        font-size: 18px;
+        background-color: transparent;
+        border-radius: 50px;
+        color: $font-primary;
+        border: 1px solid white;
+    }
+}
+    
+
+
+.popular{
+    color: $font-primary;
+    font-weight: 800;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.songs-track-details{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    transition: background-color 0.3s;
+} 
+.songs-track-details ul{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        padding: 0;
+        margin:0;
+        width: 100%;
+}
+.songs-track-details li{
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+}
+
+.songs-track-details:hover{
+    background-color: $font-primary;
+    li{
+        color: black;
+    }
+}
+
+.track-index{
+    width: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #b3b3b3;
+}
+.track-image img{
+    border-radius: 8px;
+    object-fit: cover;
+}
+.track-name{
+    flex: 1;
+    padding-left: 10px;
+    font-size: 16px;
+    color: $font-primary;
+}
+.track-time{
+    width: 60px;
+    text-align: right;
+    font-size: 16px;
+    color: $font-light;
+}
+.track-album{
+    width: 300px;text-align: left;
+    font-size: 16px;
+    color: $font-light;
+}

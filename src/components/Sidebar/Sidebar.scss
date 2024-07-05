@@ -1,0 +1,124 @@
+@import '../../colors/colors.scss';
+
+
+menu{
+    background: $backgorund-primary;
+    color: $font-primary;
+    width: 300px; 
+    position:fixed;
+    padding: 10px;
+    overflow: hidden;
+
+}
+.menubar-top{
+    background-color: $background-cover;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.menubar-top ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.menubar-bottum{
+    background-color: $background-cover;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 100vh;
+}
+.menubar-bottum ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.menubar-bottum ul li{
+    font-size: 14px;
+    padding: 10px 20px; 
+}
+.menubar-top ul li{
+    font-size: 14px;
+    padding: 10px 20px; 
+}
+.menubar-top ul li span{
+    font-size: 21px;
+    color: $font-light;
+    margin-left: 25px;
+    text-align: center;
+}
+.menubar-bottum ul li span{
+    font-size: 21px;
+    color: $font-light;
+    margin-left: 25px;
+    text-align: center;
+}
+.menubar-top ul li span:hover{
+    color: $font-primary;
+}
+.library::after{
+    content: '+';
+    text-align: center;
+    float: right;
+    font-size: 28px;
+}
+.create-playlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding: 30px 15px;
+   background-color: #242222;
+   border-radius: 10px;
+    margin-bottom: 10px;
+}
+.create-playlist h4{
+    font-size: 14px;
+    margin: 2px 0;
+}
+.create-playlist p{
+    font-size: 16px;
+    padding: 8px 0;
+}
+.create-playlist button{
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+.menubar-scroll{
+    height: 120px;
+    overflow-y: auto;
+}
+.menubar-scroll::-webkit-scrollbar{
+    background: transparent;
+}
+.menubar-scroll::-webkit-scrollbar-thumb{
+    background: transparent;
+    width: 10px;
+}
+.menubar-scroll:hover::-webkit-scrollbar{
+    background-color: #ccc;
+    width: 5px;
+}
+.language-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 30px;
+        border-radius: 10px;
+        border: none;
+        i{
+            font-size: 20px;
+        }
+        p{
+            margin-left: 10px;
+            font-size: 20px;
+        }
+    }
+}

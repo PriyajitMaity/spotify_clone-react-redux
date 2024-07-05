@@ -1,0 +1,85 @@
+@import '../../colors/colors.scss';
+
+header{
+    background-color: $background-cover;
+    color: $font-primary;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0, 0, 0.1);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-back-btn button{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #000000B3;
+    border: none;
+    color: $font-primary;
+    margin-left: 1rem;
+    cursor: pointer;
+
+    i{
+        font-size: 18px;
+    }
+
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    span{
+        background-color: #ffffff;
+        padding: 4px, 16px;
+        height: 32px;
+        width: 132px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000001;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+}
+.nav-install{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 4px 16px 4px 13px;
+    border-radius: 20px;
+    border: none;
+    outline: 0;
+    background-color: $backgorund-primary;
+    color: $font-primary;
+    cursor: pointer;
+
+    i{
+        font-size: 18px;
+        padding-right: 5px;
+    }
+    p{
+        font-size: 18px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+.bell-button{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #000000B3;
+    border: none;
+    color: $font-primary;
+    margin-right: 1rem;
+    cursor: pointer;
+    i{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,21 @@
+@import '../../colors/colors.scss';
+
+.app{
+    display: flex;
+    height: 100%;
+    background-color: $backgorund-primary;
+    border-radius: 10px;
+
+}
+.main-section{
+    background-color: $background-cover;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0.5rem 1rem;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+

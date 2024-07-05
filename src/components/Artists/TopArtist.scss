@@ -1,0 +1,61 @@
+@import '../../colors/colors.scss';
+
+.artist-list{
+    padding: 20px;
+}
+.artist-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .show-all{
+        background: transparent;
+        border: none;
+        text-decoration: none;
+        color: $font-primary;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+}
+.artist-list h1{
+    color: $font-primary;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.artist-ele{
+    background-color: $background-cover;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    transition: transform 0.3s ease;
+    
+    img{
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        display: block;
+    }
+    h3{
+        font-size: 1.3rem;
+        color: $font-primary;
+    }
+    p{
+        text-transform: capitalize;
+        padding-top: 8px;
+        font-size: 1.2rem;
+        color: $font-light;
+    }
+}
+.artist-ele:hover{
+    transform: scale(1.05);
+}
+.artist-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    cursor: pointer; 
+}
+.artist-detail{
+    margin: 8px;
+}

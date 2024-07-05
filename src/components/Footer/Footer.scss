@@ -1,0 +1,79 @@
+@import '../../colors/colors.scss';
+
+footer{
+     bottom: 0;
+     padding: 20px 0px;
+
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+.columns{
+     padding: 18px;
+     
+}
+.columns p{
+     color: $font-primary;
+     font-size: 18px;
+     text-transform: capitalize;
+     font-weight: 600;
+}
+.col-links li{
+     list-style-type: none;
+     margin: 8px 0;
+}
+.col-links li a{
+     text-transform: capitalize;
+     text-decoration: none;
+     color: $font-light;
+     font-size: 14px;
+}
+.col-links li a:hover{
+     text-decoration: underline;
+     color: $font-primary;
+}
+.columns .social-media i{
+     padding: 1rem;
+     color: #fff;
+}
+.columns .social-media i:hover{
+     background-color: $font-light;
+     border-radius: 50%;
+     color: $background-cover;
+}
+
+hr{
+     margin: 10px 40px;
+     border: 1px solid $font-light;
+     outline: 0;
+}
+.footer-last-section{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px;
+}
+.footer-action-section ul{
+     list-style: none;
+     display: flex;
+     gap: 40px;
+     margin: 20px;
+}
+.footer-action-section ul li{
+     font-size: 14px;
+     color: $font-light;
+}
+.footer-last-section span{
+     margin: 20px;
+     font-size: 14px;
+     color: $font-light;
+}
+.footer-action-section ul li:hover{
+     color: $font-primary;
+}
+.footer-last-section span:hover{
+     color: $font-primary;
+}
